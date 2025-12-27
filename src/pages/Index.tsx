@@ -268,7 +268,12 @@ const Index = () => {
                   className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 h-14 text-base"
                   asChild
                 >
-                  <a href="mailto:darshanaminfotech@gmail.com" className="flex items-center gap-2">
+                  <a
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=darshanaminfotech@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2"
+                  >
                     Send Us an Email
                     <ArrowRight className="w-5 h-5" />
                   </a>

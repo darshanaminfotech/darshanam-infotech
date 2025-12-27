@@ -24,7 +24,7 @@ const contactMethods = [
     title: "Email",
     description: "Send us a message",
     value: "darshanaminfotech@gmail.com",
-    action: "mailto:darshanaminfotech@gmail.com",
+    action: "https://mail.google.com/mail/?view=cm&fs=1&to=darshanaminfotech@gmail.com",
     actionLabel: "Send Email",
     highlight: false,
   },
@@ -209,7 +209,12 @@ const Contact = () => {
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" className="px-8 h-14 text-base" asChild>
-                  <a href="mailto:darshanaminfotech@gmail.com" className="flex items-center gap-2">
+                  <a
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=darshanaminfotech@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2"
+                  >
                     <Mail className="w-5 h-5" />
                     Send an Email
                   </a>

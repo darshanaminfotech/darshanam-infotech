@@ -51,7 +51,12 @@ const Navbar = () => {
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center gap-3">
             <Button variant="ghost" size="sm" asChild>
-              <a href="mailto:darshanaminfotech@gmail.com" className="flex items-center gap-2">
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=darshanaminfotech@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2"
+              >
                 <Mail className="w-4 h-4" />
                 Email Us
               </a>
@@ -103,7 +108,12 @@ const Navbar = () => {
               ))}
               <div className="flex flex-col gap-2 pt-4 border-t border-border">
                 <Button variant="outline" size="sm" asChild className="w-full">
-                  <a href="mailto:darshanaminfotech@gmail.com" className="flex items-center justify-center gap-2">
+                  <a
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=darshanaminfotech@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center gap-2"
+                  >
                     <Mail className="w-4 h-4" />
                     Email Us
                   </a>
